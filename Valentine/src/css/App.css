@@ -1,0 +1,12 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  cursor: url("../assets/images/kuromi_cursor.png") 16 16, pointer;
+  text-align: center;
+  }
+
+  /* Change cursor only when hovering a button inside #root */
+  #root button:hover {
+    cursor: url("../assets/images/kuromin_pointer.png"), pointer;
+  }
+
